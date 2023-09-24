@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace Eraufi\Src;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Schema;
