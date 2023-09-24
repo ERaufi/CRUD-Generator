@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "eraufi\\crud\\": "src/"
+            "Eraufi\\Crud\\": "src/"
         }
     }
 }

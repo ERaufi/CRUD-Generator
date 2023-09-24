@@ -1,6 +1,6 @@
 <?php
 
-namespace Eraufi\Src;
+namespace Eraufi\Crud;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Schema;
