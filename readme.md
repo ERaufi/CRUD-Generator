@@ -17,19 +17,22 @@ You can install this package via Composer:
 
 ```bash
 composer require eraufi/crud
+```
 
 Usage
 To generate CRUD operations for a model, use the following command:
+```bash
 php artisan crud:generate {model}
-
+```
 Replace {model} with the name of the model you want to generate CRUD operations for.
 
 Options
 --generateView: Generates views for the CRUD operations. (Optional)
 --isEducationl: Adds comments for educational purposes. (Optional)
 Example
+```bash
 php artisan crud:generate Post --generateView --isEducationl
-
+```
 Requirements
 Laravel >= 5.6
 PHP >= 7.1
