@@ -18,6 +18,15 @@ You can install this package via Composer:
 ```bash
 composer require eraufi/crud
 ```
+Then in app\Console\Kernel.php add these lines of code
+```bash
+    use Eraufi\Crud\GenerateCRUDCommand;
+
+
+    protected $commands = [
+        GenerateCRUDCommand::class,
+    ];
+```
 
 Usage
 To generate CRUD operations for a model, use the following command:
