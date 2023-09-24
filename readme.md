@@ -40,7 +40,7 @@ Options
 --isEducationl: Adds comments for educational purposes. (Optional)
 Example
 ```bash
-php artisan crud:generate Post --generateView --isEducationl
+php artisan crud:generate Post
 ```
 Requirements
 Laravel >= 5.6
